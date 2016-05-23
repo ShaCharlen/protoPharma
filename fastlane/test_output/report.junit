@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites tests='4' failures='0'>
+  <testsuite name='Prototype02052016Tests.Prototype02052016Tests' tests='4' failures='0'>
+    <testcase classname='Prototype02052016Tests.Prototype02052016Tests' name='testExample' time='0.001'/>
+    <testcase classname='Prototype02052016Tests.Prototype02052016Tests' name='testInitEchantillon' time='0.001'/>
+    <testcase classname='Prototype02052016Tests.Prototype02052016Tests' name='testInitPanier' time='0.001'/>
+    <testcase classname='Prototype02052016Tests.Prototype02052016Tests' name='testPerformanceExample' time='0.295'/>
+  </testsuite>
+</testsuites>
