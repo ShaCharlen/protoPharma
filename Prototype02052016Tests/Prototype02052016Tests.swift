@@ -37,7 +37,7 @@ class Prototype02052016Tests: XCTestCase {
         
         //Echantillons pour le test
         let echantillon1 = Echantillon(nomEchantillon: "Lexomil", referenceEchantillon: "010255555", quantiteEchantillon: 50)
-        let echantillon2 = Echantillon(nomEchantillon: "Doliprane", referenceEchantillon: "010256655", quantiteEchantillon: 10)
+        let echantillon2 = Echantillon(nomEchantillon: "", referenceEchantillon: "010256655", quantiteEchantillon: 10)
         
         //Cas passants
         let initPanierPassantSansContenu = Panier(nom: "Gros Panier", medecin: "Nom médecin", etat: .provisoire, contenu:nil)
