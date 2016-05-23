@@ -241,10 +241,10 @@
             </objects>
             <point key="canvasLocation" x="683" y="167"/>
         </scene>
-        <!--Enchantillon Table View Controller-->
+        <!--Echantillon Table View Controller-->
         <scene sceneID="UUf-Ka-sdg">
             <objects>
-                <tableViewController id="mT2-a5-7cr" customClass="EnchantillonTableViewController" customModule="Prototype02052016" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="mT2-a5-7cr" customClass="EchantillonTableViewController" customModule="Prototype02052016" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="71" sectionHeaderHeight="28" sectionFooterHeight="28" id="Lc3-mj-WL7">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="155"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
