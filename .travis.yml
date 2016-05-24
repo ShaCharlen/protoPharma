@@ -1,4 +1,4 @@
 language: objective-c
 before_install:
 - brew update
-script: xctool -project Prototype02052016.xcodeproj -scheme Prototype02052016 test
+script: xctool -project Prototype02052016.xcodeproj -scheme Prototype02052016 -sdk iphonesimulator test -freshSimulator -freshInstall
