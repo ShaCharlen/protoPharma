@@ -8,13 +8,13 @@
         <!--PanierTableView-->
         <scene sceneID="bTS-uG-PoX">
             <objects>
-                <tableViewController storyboardIdentifier="PanierTableView" title="PanierTableView" id="hw8-qP-pie" customClass="PanierTableViewController" customModule="Prototype02052016" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="PanierTableView" title="PanierTableView" id="hw8-qP-pie" customClass="NouveauPanierTableViewController" customModule="Prototype02052016" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="69" sectionHeaderHeight="28" sectionFooterHeight="28" id="8bv-YZ-IRB">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PanierTableViewCell" rowHeight="69" id="V5c-eV-dZr" customClass="PanierTableViewCell" customModule="Prototype02052016" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PanierTableViewCell" rowHeight="69" id="V5c-eV-dZr" customClass="NouveauPanierTableViewCell" customModule="Prototype02052016" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="92" width="320" height="69"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="V5c-eV-dZr" id="SGj-9w-LO6">
@@ -61,10 +61,10 @@
             </objects>
             <point key="canvasLocation" x="265" y="330"/>
         </scene>
-        <!--Ajouter Panier View Controller-->
+        <!--Nouveau Ajouter Panier View Controller-->
         <scene sceneID="aU6-Ki-BGK">
             <objects>
-                <viewController id="QZ4-dt-Bik" customClass="AjouterPanierViewController" customModule="Prototype02052016" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="QZ4-dt-Bik" customClass="NouveauAjouterPanierViewController" customModule="Prototype02052016" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="obs-G1-yZF"/>
                         <viewControllerLayoutGuide type="bottom" id="2fA-MY-PJ3"/>
@@ -132,10 +132,10 @@
             </objects>
             <point key="canvasLocation" x="683" y="781"/>
         </scene>
-        <!--Scanner View Controller-->
+        <!--Nouveau Scanner View Controller-->
         <scene sceneID="Y2n-oM-AUG">
             <objects>
-                <viewController id="cIq-VK-CCh" customClass="ScannerViewController" customModule="Prototype02052016" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="cIq-VK-CCh" customClass="NouveauScannerViewController" customModule="Prototype02052016" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="u1x-oH-QWv"/>
                         <viewControllerLayoutGuide type="bottom" id="dh0-jc-4hv"/>
@@ -153,7 +153,7 @@
         <!--Title-->
         <scene sceneID="s2B-Z3-MDZ">
             <objects>
-                <viewController id="VsE-VS-Y5H" customClass="PanierViewController" customModule="Prototype02052016" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="VsE-VS-Y5H" customClass="NouveauPanierViewController" customModule="Prototype02052016" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="RIg-NC-7Rq"/>
                         <viewControllerLayoutGuide type="bottom" id="A48-Ro-kKP"/>
@@ -241,16 +241,16 @@
             </objects>
             <point key="canvasLocation" x="683" y="167"/>
         </scene>
-        <!--Enchantillon Table View Controller-->
+        <!--Nouvel Echantillon Table View Controller-->
         <scene sceneID="UUf-Ka-sdg">
             <objects>
-                <tableViewController id="mT2-a5-7cr" customClass="EnchantillonTableViewController" customModule="Prototype02052016" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="mT2-a5-7cr" customClass="NouvelEchantillonTableViewController" customModule="Prototype02052016" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="71" sectionHeaderHeight="28" sectionFooterHeight="28" id="Lc3-mj-WL7">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="155"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="71" id="Pok-Wd-l6d" customClass="EchantillonTableViewCell" customModule="Prototype02052016" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="71" id="Pok-Wd-l6d" customClass="NouvelEchantillonTableViewCell" customModule="Prototype02052016" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="320" height="71"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Pok-Wd-l6d" id="OLj-uU-HkL">

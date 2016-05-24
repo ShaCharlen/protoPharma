@@ -14,16 +14,16 @@
 		B46049B51CD7909D0043A9E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B46049B41CD7909D0043A9E1 /* Assets.xcassets */; };
 		B46049B81CD7909D0043A9E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B46049B61CD7909D0043A9E1 /* LaunchScreen.storyboard */; };
 		B46049C31CD7909D0043A9E1 /* Prototype02052016Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46049C21CD7909D0043A9E1 /* Prototype02052016Tests.swift */; };
-		B46049CF1CD790F20043A9E1 /* Echantillon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46049CD1CD790F20043A9E1 /* Echantillon.swift */; };
-		B46049D01CD790F20043A9E1 /* Panier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46049CE1CD790F20043A9E1 /* Panier.swift */; };
-		B46049D91CD793190043A9E1 /* PanierTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46049D11CD793190043A9E1 /* PanierTableViewController.swift */; };
-		B46049DA1CD793190043A9E1 /* PanierViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46049D21CD793190043A9E1 /* PanierViewController.swift */; };
-		B46049DB1CD793190043A9E1 /* PanierTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46049D31CD793190043A9E1 /* PanierTableViewCell.swift */; };
-		B46049DC1CD793190043A9E1 /* AjouterPanierViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46049D41CD793190043A9E1 /* AjouterPanierViewController.swift */; };
-		B46049DD1CD793190043A9E1 /* EchantillonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46049D51CD793190043A9E1 /* EchantillonTableViewCell.swift */; };
-		B46049DE1CD793190043A9E1 /* EchantillonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46049D61CD793190043A9E1 /* EchantillonViewController.swift */; };
-		B46049DF1CD793190043A9E1 /* EnchantillonTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46049D71CD793190043A9E1 /* EnchantillonTableViewController.swift */; };
-		B46049E01CD793190043A9E1 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46049D81CD793190043A9E1 /* ScannerViewController.swift */; };
+		B4D1E2FE1CF4370300A8DF3E /* NouvelEchantillon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D1E2FD1CF4370300A8DF3E /* NouvelEchantillon.swift */; };
+		B4D1E3001CF4373100A8DF3E /* NouveauPanier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D1E2FF1CF4373100A8DF3E /* NouveauPanier.swift */; };
+		B4D1E3021CF4376D00A8DF3E /* NouveauPanierTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D1E3011CF4376D00A8DF3E /* NouveauPanierTableViewController.swift */; };
+		B4D1E3041CF437B900A8DF3E /* NouveauPanierViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D1E3031CF437B900A8DF3E /* NouveauPanierViewController.swift */; };
+		B4D1E3061CF4380200A8DF3E /* NouveauPanierTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D1E3051CF4380200A8DF3E /* NouveauPanierTableViewCell.swift */; };
+		B4D1E3081CF4383C00A8DF3E /* NouveauAjouterPanierViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D1E3071CF4383C00A8DF3E /* NouveauAjouterPanierViewController.swift */; };
+		B4D1E30A1CF438C800A8DF3E /* NouvelEchantillonTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D1E3091CF438C800A8DF3E /* NouvelEchantillonTableViewController.swift */; };
+		B4D1E30C1CF4391200A8DF3E /* NouvelEchantillonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D1E30B1CF4391200A8DF3E /* NouvelEchantillonTableViewCell.swift */; };
+		B4D1E30E1CF4394C00A8DF3E /* NouvelEchantillonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D1E30D1CF4394C00A8DF3E /* NouvelEchantillonViewController.swift */; };
+		B4D1E3101CF4397600A8DF3E /* NouveauScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D1E30F1CF4397600A8DF3E /* NouveauScannerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,16 +48,16 @@
 		B46049BE1CD7909D0043A9E1 /* Prototype02052016Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Prototype02052016Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B46049C21CD7909D0043A9E1 /* Prototype02052016Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prototype02052016Tests.swift; sourceTree = "<group>"; };
 		B46049C41CD7909D0043A9E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B46049CD1CD790F20043A9E1 /* Echantillon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Echantillon.swift; path = ../../version1/version1/Echantillon.swift; sourceTree = "<group>"; };
-		B46049CE1CD790F20043A9E1 /* Panier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Panier.swift; path = ../../version1/version1/Panier.swift; sourceTree = "<group>"; };
-		B46049D11CD793190043A9E1 /* PanierTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PanierTableViewController.swift; path = ../../version1/PanierTableViewController.swift; sourceTree = "<group>"; };
-		B46049D21CD793190043A9E1 /* PanierViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PanierViewController.swift; path = ../../version1/version1/PanierViewController.swift; sourceTree = "<group>"; };
-		B46049D31CD793190043A9E1 /* PanierTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PanierTableViewCell.swift; path = ../../version1/version1/PanierTableViewCell.swift; sourceTree = "<group>"; };
-		B46049D41CD793190043A9E1 /* AjouterPanierViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AjouterPanierViewController.swift; path = ../../testSegue/testSegue/AjouterPanierViewController.swift; sourceTree = "<group>"; };
-		B46049D51CD793190043A9E1 /* EchantillonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EchantillonTableViewCell.swift; path = ../../version1/version1/EchantillonTableViewCell.swift; sourceTree = "<group>"; };
-		B46049D61CD793190043A9E1 /* EchantillonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EchantillonViewController.swift; path = ../../version1/version1/EchantillonViewController.swift; sourceTree = "<group>"; };
-		B46049D71CD793190043A9E1 /* EnchantillonTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EnchantillonTableViewController.swift; path = ../../version1/version1/EnchantillonTableViewController.swift; sourceTree = "<group>"; };
-		B46049D81CD793190043A9E1 /* ScannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScannerViewController.swift; path = ../../test/test/ScannerViewController.swift; sourceTree = "<group>"; };
+		B4D1E2FD1CF4370300A8DF3E /* NouvelEchantillon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NouvelEchantillon.swift; sourceTree = "<group>"; };
+		B4D1E2FF1CF4373100A8DF3E /* NouveauPanier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NouveauPanier.swift; sourceTree = "<group>"; };
+		B4D1E3011CF4376D00A8DF3E /* NouveauPanierTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NouveauPanierTableViewController.swift; sourceTree = "<group>"; };
+		B4D1E3031CF437B900A8DF3E /* NouveauPanierViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NouveauPanierViewController.swift; sourceTree = "<group>"; };
+		B4D1E3051CF4380200A8DF3E /* NouveauPanierTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NouveauPanierTableViewCell.swift; sourceTree = "<group>"; };
+		B4D1E3071CF4383C00A8DF3E /* NouveauAjouterPanierViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NouveauAjouterPanierViewController.swift; sourceTree = "<group>"; };
+		B4D1E3091CF438C800A8DF3E /* NouvelEchantillonTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NouvelEchantillonTableViewController.swift; sourceTree = "<group>"; };
+		B4D1E30B1CF4391200A8DF3E /* NouvelEchantillonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NouvelEchantillonTableViewCell.swift; sourceTree = "<group>"; };
+		B4D1E30D1CF4394C00A8DF3E /* NouvelEchantillonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NouvelEchantillonViewController.swift; sourceTree = "<group>"; };
+		B4D1E30F1CF4397600A8DF3E /* NouveauScannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NouveauScannerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,16 +102,16 @@
 				B46049AE1CD7909D0043A9E1 /* Main.storyboard */,
 				B46049AA1CD7909D0043A9E1 /* AppDelegate.swift */,
 				B46049AC1CD7909D0043A9E1 /* ViewController.swift */,
-				B46049CD1CD790F20043A9E1 /* Echantillon.swift */,
-				B46049CE1CD790F20043A9E1 /* Panier.swift */,
-				B46049D11CD793190043A9E1 /* PanierTableViewController.swift */,
-				B46049D21CD793190043A9E1 /* PanierViewController.swift */,
-				B46049D31CD793190043A9E1 /* PanierTableViewCell.swift */,
-				B46049D41CD793190043A9E1 /* AjouterPanierViewController.swift */,
-				B46049D51CD793190043A9E1 /* EchantillonTableViewCell.swift */,
-				B46049D61CD793190043A9E1 /* EchantillonViewController.swift */,
-				B46049D71CD793190043A9E1 /* EnchantillonTableViewController.swift */,
-				B46049D81CD793190043A9E1 /* ScannerViewController.swift */,
+				B4D1E2FD1CF4370300A8DF3E /* NouvelEchantillon.swift */,
+				B4D1E2FF1CF4373100A8DF3E /* NouveauPanier.swift */,
+				B4D1E3011CF4376D00A8DF3E /* NouveauPanierTableViewController.swift */,
+				B4D1E3031CF437B900A8DF3E /* NouveauPanierViewController.swift */,
+				B4D1E3051CF4380200A8DF3E /* NouveauPanierTableViewCell.swift */,
+				B4D1E3071CF4383C00A8DF3E /* NouveauAjouterPanierViewController.swift */,
+				B4D1E30B1CF4391200A8DF3E /* NouvelEchantillonTableViewCell.swift */,
+				B4D1E3091CF438C800A8DF3E /* NouvelEchantillonTableViewController.swift */,
+				B4D1E30D1CF4394C00A8DF3E /* NouvelEchantillonViewController.swift */,
+				B4D1E30F1CF4397600A8DF3E /* NouveauScannerViewController.swift */,
 				B46049B41CD7909D0043A9E1 /* Assets.xcassets */,
 				B46049B61CD7909D0043A9E1 /* LaunchScreen.storyboard */,
 				B46049B91CD7909D0043A9E1 /* Info.plist */,
@@ -232,19 +232,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B46049D91CD793190043A9E1 /* PanierTableViewController.swift in Sources */,
-				B46049DC1CD793190043A9E1 /* AjouterPanierViewController.swift in Sources */,
-				B46049DA1CD793190043A9E1 /* PanierViewController.swift in Sources */,
-				B46049DE1CD793190043A9E1 /* EchantillonViewController.swift in Sources */,
+				B4D1E3001CF4373100A8DF3E /* NouveauPanier.swift in Sources */,
+				B4D1E2FE1CF4370300A8DF3E /* NouvelEchantillon.swift in Sources */,
+				B4D1E30C1CF4391200A8DF3E /* NouvelEchantillonTableViewCell.swift in Sources */,
 				B46049B31CD7909D0043A9E1 /* Prototype02052016.xcdatamodeld in Sources */,
-				B46049CF1CD790F20043A9E1 /* Echantillon.swift in Sources */,
-				B46049DF1CD793190043A9E1 /* EnchantillonTableViewController.swift in Sources */,
+				B4D1E30E1CF4394C00A8DF3E /* NouvelEchantillonViewController.swift in Sources */,
+				B4D1E3061CF4380200A8DF3E /* NouveauPanierTableViewCell.swift in Sources */,
+				B4D1E3041CF437B900A8DF3E /* NouveauPanierViewController.swift in Sources */,
+				B4D1E3021CF4376D00A8DF3E /* NouveauPanierTableViewController.swift in Sources */,
 				B46049AD1CD7909D0043A9E1 /* ViewController.swift in Sources */,
-				B46049D01CD790F20043A9E1 /* Panier.swift in Sources */,
-				B46049DD1CD793190043A9E1 /* EchantillonTableViewCell.swift in Sources */,
-				B46049E01CD793190043A9E1 /* ScannerViewController.swift in Sources */,
-				B46049DB1CD793190043A9E1 /* PanierTableViewCell.swift in Sources */,
+				B4D1E3101CF4397600A8DF3E /* NouveauScannerViewController.swift in Sources */,
+				B4D1E3081CF4383C00A8DF3E /* NouveauAjouterPanierViewController.swift in Sources */,
 				B46049AB1CD7909D0043A9E1 /* AppDelegate.swift in Sources */,
+				B4D1E30A1CF438C800A8DF3E /* NouvelEchantillonTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
