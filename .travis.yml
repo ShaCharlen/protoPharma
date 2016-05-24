@@ -5,3 +5,6 @@ before_install:
 - sudo gem install xcpretty
 
 script: xctool -project Prototype02052016.xcodeproj -scheme Prototype02052016 -sdk iphonesimulator test -freshSimulator -freshInstall
+
+after_failure:
+- tail -n 500 build.log
