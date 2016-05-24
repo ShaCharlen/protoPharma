@@ -1,5 +1,7 @@
 language: objective-c
 osx_image: xcode7.3
+
 before_install:
-- brew update
+- sudo gem install xcpretty
+
 script: xctool -project Prototype02052016.xcodeproj -scheme Prototype02052016 -sdk iphonesimulator test -freshSimulator -freshInstall
